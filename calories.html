@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calories Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Daily Calories Calculator</h2>
+        <fieldset>
+            <legend>Calories Data</legend>
+            Weight (kg): <input type="number" id="cw"><br><br>
+            Age: <input type="number" id="age"><br><br>
+            Gender: 
+            <input type="radio" name="g" id="m" checked> Male <input type="radio" name="g" id="f"> Female <br><br>
+            <button onclick="calcCalories()">Calculate Calories</button>
+            <button onclick="window.location.href='index.html'">Back to Home</button>
+        </fieldset>
+        <h3 id="cres"></h3>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
